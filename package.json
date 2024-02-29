@@ -6,7 +6,7 @@
 	"type": "module",
 	"scripts": {
 		"build": "tsc",
-		"debug": "npm run build && node dist/index.js",
+		"dev": "npm run build && node dist/index.js",
 		"format": "npx prettier . --write"
 	},
 	"keywords": [],
